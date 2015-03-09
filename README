@@ -1,0 +1,12 @@
+What's My IP?
+
+This is a tool for determining your dynamic home IP address from a remote location.
+
+I created it because I am spending this spring in Brooklyn but I accidentally left my other laptop at home in Chicago.
+
+To use:
+1. Spin up a Firebase (https://www.firebase.com). They're free.
+2. Run on the computer to track the IP:
+      python server.py <NAME_OF_FIREBASE>
+3. Run on a remote computer to check the IP of the server:
+      python client.py <NAME_OF_FIREBASE>
